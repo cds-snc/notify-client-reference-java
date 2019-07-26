@@ -14,7 +14,7 @@ public class App {
             NotificationClient client = new NotificationClient("livekey-e609f6b0-0390-45b0-aaae-f4cc92c713e4-e35e2a45-17a8-4d9c-a78f-cd0e125b345e", "https://api.notification.cdssandbox.xyz");
 
             Map<String, Object> personalization = new HashMap<>();
-            personalization.put("first_name", "Jeff");
+            personalization.put("first_name", "Pinchy");
             personalization.put("click_here", "https://digital.canada.ca");
 
             SendEmailResponse response = client.sendEmail(
